@@ -54,3 +54,14 @@ console.log("Replace:", name.replace("vikas", "Aaditya"));
 
 
 console.log("Concat:", name.concat(" ", last));
+
+
+
+
+let Fname="Aaditya";
+let Lname="rajput";
+
+console.log("My first name is "+ Fname);
+console.log("My last name is "+Lname);
+console.log(`My first name is ${Fname}`);
+console.log(`My last name is: ${Fname} ${Lname}`);
