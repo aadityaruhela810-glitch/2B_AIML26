@@ -22,3 +22,16 @@ const pattern = (n) => {
     }
 };
 pattern(5);
+
+
+
+// sum 
+const sum = (...value) => {
+    let total = 0;
+    for(let n of value){
+        total += n;
+    }
+    return total;
+}
+
+console.log(sum(10,20,30));
