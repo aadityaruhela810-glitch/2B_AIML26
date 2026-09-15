@@ -35,7 +35,7 @@ let l="lastname";
         [f]:"Aadi",
         [l]:"rajput"
     }
-    "detail show"(){
+    "detail show()";{
         console.log(this.first)
         console.log(this.last)
     }
